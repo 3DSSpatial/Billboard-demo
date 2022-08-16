@@ -56,7 +56,7 @@ const setupStates = (asset, renderer) => {
 
       {
         const switchToCutAway = new SwitchState();
-        switchToCutAway.getParameter('TargetState').setValue('Cutaway');
+        switchToCutAway.getParameter('TargetState').setValue('Exploded'); // skip Cutaway
 
         const geomClicked = new GeomClicked();
         geomClicked.getParameter('TreeItem').setValue(asset);
@@ -172,7 +172,7 @@ const setupStates = (asset, renderer) => {
 
       {
         const switchState = new SwitchState();
-        switchState.getParameter('TargetState').setValue('Cutaway');
+        switchState.getParameter('TargetState').setValue('Initial');// Don't go back to Cutaway
 
         const geomClicked = new GeomClicked();
         geomClicked.getParameter('TreeItem').setValue(asset);
