@@ -2,7 +2,7 @@
 # DSC Demo
 This demo is based on  https://github.com/ZeaInc/GearBoxDemo
 
-In addition, Billboards are created with .png (screen grabs from DSC meeting, and the tree is displayed. 
+In addition, Billboards are created with .png (screen grabs from customer meeting, and the tree is displayed. 
 The gear kinamatics have been disabled.
 
 ## Run the demo 
