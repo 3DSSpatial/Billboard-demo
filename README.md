@@ -1,5 +1,5 @@
 
-# DSC Demo
+# Billboard Demo
 This demo is based on  https://github.com/ZeaInc/GearBoxDemo
 
 In addition, Billboards are created with .png (screen grabs from customer meeting, and the tree is displayed. 
